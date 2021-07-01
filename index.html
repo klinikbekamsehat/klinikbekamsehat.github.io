@@ -16,7 +16,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,12 +65,18 @@ body, html {
   min-height: 400px;
 }
 
+/* Fourth image (Map) */
+.bgimg-4 {
+  background-image: url("map.jpg");
+  min-height: 400px;
+}
+  
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, {
     background-attachment: scroll;
     min-height: 400px;
   }
@@ -459,15 +465,15 @@ img {vertical-align: middle;}
 
 
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<!-- fourth Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-white w3-wide" >FIND US</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
+<div class="w3-content w3-container w3-padding-64" id="map">
   <h3 class="w3-center"><b>FIND US</b></h3>
   <p class="w3-center"><b>Anda dapat menghubungi kami melalui kontak yang tertera ataupun meng-klik peta di bawah untuk menuntun anda kepada kami</b></p>
 
